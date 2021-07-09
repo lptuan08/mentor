@@ -23,8 +23,9 @@
 4. Viết một số API đơn giản
 5. Kết nối MongoDB với mongoose
 6. Gửi mail với nodemailer
-7. Viết các API xác thực người dùng (đăng ký, đăng nhập, ...) và JsonWebToken
-8. API Testing với Postman
+7. Upload file với Multer và Cloudinary
+8. Viết các API xác thực người dùng (đăng ký, đăng nhập, ...) và JsonWebToken
+9. API Testing với Postman
 
 ### Phần 3: Todo App - NodeJS API
 
