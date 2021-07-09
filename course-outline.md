@@ -1,0 +1,75 @@
+# COURSE OUTLINE
+
+## Chương trình:
+
+### Phần 1: Git/Github và commandline interface (CLI):
+
+1.  Setup Git bằng SSH
+2. Tạo repository và push code lên git
+3. Các lệnh Git cơ bản
+
+### Phần 2: JavaScript
+
+1. Nhắc lại về JavaScript cơ bản
+2. Một số cú pháp của JavaScript ES6 (destructuring, rest parameter, arrow function ...)
+3. Asynchronous JavaScript với Callback, Promise và Async/Await
+
+### Phần 2: Back-end NodeJS cơ bản
+
+1. Cài đặt NVM, MongoDB, Postman, MongoDB Compass các kiểu
+1. Khởi tạo một project NodeJS
+2. Setup Babel để sử dụng ES6 Syntax (có thể bỏ qua nếu sử dụng CommonJS Modules 😀)
+3. Cấu trúc thư mục một dự án NodeJS - ExpressJS nhỏ
+4. Viết một số API đơn giản
+5. Kết nối MongoDB với mongoose
+6. Gửi mail với nodemailer
+7. Viết các API xác thực người dùng (đăng ký, đăng nhập, ...) và JsonWebToken
+8. API Testing với Postman
+
+### Phần 3: Todo App - NodeJS API
+
+1. Phân tích Database và tạo các Model schema
+2. Viết các Controller
+3. API Testing với Postman
+
+### Phần 4: Todo App - ReactJS
+
+1. Khởi tạo một dự án ReactJS với create-react-app và SACC/SCSS
+2. React Hooks - Một số hooks cơ bản (useState, useEffect, useRef, useContext)
+3. Viết giao diện từ file thiết kế và SASS cơ bản
+4. Todo App với React Context API
+5. Tương tác với NodeJS API
+6. Responsive Web Design cơ bản với Todo App
+7. Deploy toàn bộ ứng dụng lên Free Hosting (Heroku, Firebase, ...)
+
+### Phần 5: Ứng dụng DevNotes với NodeJS API (tương tự Google Keep nhưng sử dụng Markdown để viết note)
+
+1. Phân tích Database và tạo các Model schema (sử dụng lại template dự án trước đó)
+2. MongoDB/Mongoose aggregation
+3. Các API Controller cho ứng dụng DevNotes (phần này khá dài)
+4. API Testing với Postman
+
+### Phần 6: DevNotes Web Client với ReactJS
+
+1. Khởi tạo cấu trúc project ReactJS
+2. Viết giao diện từ file thiết kế
+3. State management với Redux Tool Kit (hoặc React Context API)
+4. Tương tác với Back-end API
+5. Responsive Web Design
+6. Deploy toàn bộ ứng dụng DevNotes
+
+## Tóm tắt
+
+TL;DR. Hơi dài nên hy vọng bạn đọc hết 🤣
+
+Trên đây là toàn bộ chương trình mà bạn sẽ kinh qua với mentor là mình. Mình chia ra từng phần để bạn hiểu rõ mình sẽ học những gì chứ không phải là mỗi một buổi chúng ta sẽ học một phần. Có khi một buổi sẽ học 2, 3 phần. Cũng có khi sẽ học 1/10 phần đó 🤣🤣🤣. Thời gian sẽ là buổi tối hàng tuần, giờ học (sau 18 giờ) sắp xếp theo lịch của bạn. Hôm nào bạn bận hoặc đi chơi với gấu thì chỉ cần nhắn mình biết trước (nhưng đừng quá nhiều lần trong tuần là được). Cuối tháng này mình phỏng vấn công ty mới, thời gian học có thể bị xáo trộn một tí. Ngoài giờ học bạn có thể inbox mình bất cứ lúc nào để đặt vấn đề, mình sẽ trả lời ngay khi có thể. Mình không yêu cầu bất cứ điều gì nhưng chỉ cần bạn có quyết tâm và nghiêm túc là được. Có gì không hiểu cứ mạnh dạn hỏi mình. Mình sẵn sàng trả lời nếu mình biết, hoặc cả 2 cùng tìm hiểu nếu mình cũng không biết 😢. Lúc học cứ thoải mái nói chuyện, mình cũng cần tâm lý thoải mái 🤭.
+
+Sau khoá học, mình sẽ bonus một Portfolio (Interactive Resume) viết bằng GatsbyJS cho bạn đưa ra khi tìm công ty phỏng vấn thực tập hoặc Fresher. (Mình cũng nhận Design CV cá nhân nếu bạn cần)
+
+Toàn bộ khoá học dự kiến sẽ trong vòng 2 tháng hoặc ít hơn (nếu bạn thực sự nắm vững JS, HTML, CSS; còn chưa có thể sẽ lâu hơn đến 3 tháng nhưng chắc chắn mình không lấy thêm học phí). Quan trọng là đừng nản lòng. Mình cũng là người tự học nên rất hiểu việc này 😅.
+
+Mình sẽ soạn file giáo án đầy đủ từng buổi học. Hình thức là học trực tuyến giao tiếp bằng âm thanh qua Discord (Mic cùi nên có thể hơi rè) và chia sẻ màn hình qua TeamViewer hay một phần mềm tương tự nào đó.
+
+Trước mình học một khoá PHP ở csc.edu.vn (học offline nha, thầy của trường ĐH Khoa học - Tự nhiên) mất **6.000.000 đỒng** tiền học phí cho khoá 6 tháng 2 buổi một tuần (năm 2018). Thầy thì rất tốt, tận tình nhưng một lớp đến 10 học viên nên mình cũng chỉ học được cơ bản. Toàn bộ kiến thức về Front-end mình tự học trên Udemy và từ sách. Mình đưa ra mức giá **4.000.000 đồng** cho toàn bộ khoá mentor của mình. Mình cũng chả phải thạc sĩ, tiến sĩ gì nên mức giá này mình nghĩ là hợp lý. Và cũng không thể đảm bảo 100% đầu ra bạn sẽ có ngay việc làm ở các công ty. Đôi lúc thứ bạn cần là một người học cùng chứ không phải là một người thầy. Bạn có thể suy nghĩ và trả lời mình sau vài ngày.
+
+[QUẢNG CÁO] Trong thời gian học, bạn có thể lên blog mới tinh của mình để đọc thêm một số vấn đề liên quan: [Asynchrosaur Blog](https://asynchrosaur.gatsbyjs.io). Mình cập nhật bài viết hàng tuần và sắp có loạt bài [JavaScript With Fresh Eyes] dành cho người mới tiếp cận ngôn ngữ này.
