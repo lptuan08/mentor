@@ -133,7 +133,9 @@ for(let num of nums) {
 
 ## BÀI TẬP
 
-1. Sử dụng cú pháp **Destructuring**, gán 3 biến `a`, `b`, `c` lần lượt cho phần tử index 0, index 1, và index 3 của array fastfood sau:
+### Bài 1:
+
+Sử dụng cú pháp **Destructuring**, gán 3 biến `a`, `b`, `c` lần lượt cho phần tử index 0, index 1, và index 3 của array fastfood sau:
 
 ```js
 const fastfood = ['Hamburger', 'Cheese', 'Pizza', 'Hotdog'];
@@ -147,7 +149,9 @@ b = 'Cheese';
 c = 'Hotdog'
 ```
 
-2. Sử dụng cú pháp **Destructuring**, lấy 3 thuộc tính: `name`, `age` và `gender` từ object `character`:
+### Bài 2:
+
+Sử dụng cú pháp **Destructuring**, lấy 3 thuộc tính: `name`, `age` và `gender` từ object `character`:
 
 ```js
 const character = {
@@ -165,7 +169,9 @@ age = '32';
 gender = true;
 ```
 
-3. Sử dụng cú pháp **Destructuring** và **Spread Syntax** để tạo một object mới tên biến là `newProduct`  **không bao gồm** 2 thuộc tính `model` và `year` từ object `product` cho sẵn
+### Bài 3:
+
+Sử dụng cú pháp **Destructuring** và **Spread Syntax** để tạo một object mới tên biến là `newProduct`  **không bao gồm** 2 thuộc tính `model` và `year` từ object `product` cho sẵn
 
 ```js
 const product = {
@@ -185,7 +191,9 @@ const newProduct = {
 }
 ```
 
-4. Sử dụng **Template Literal**, cho biến `date` là một Date object chứa thông tin ngày giờ hiện tại. Hãy in ra màn hình dòng chữ: `Current time is <ngày giờ hiện tại>`
+### Bài 4:
+
+Sử dụng **Template Literal**, cho biến `date` là một Date object chứa thông tin ngày giờ hiện tại. Hãy in ra màn hình dòng chữ: `Current time is <ngày giờ hiện tại>`
 
 ```js
 const date = new Date();
@@ -197,7 +205,9 @@ Kết quả in ra console **có dạng**:
 Current time is Tue Jul 13 2021 15:02:44 GMT+0700 (Indochina Time)
 ```
 
-5. Tính tổng các phần tử mảng sau sử dụng vòng lặp **for ... of**:
+### Bài 5:
+
+Tính tổng các phần tử mảng sau sử dụng vòng lặp **for ... of**:
 
 ```js
 const nums = [1, 7, 9, 3, 11, 20];

@@ -131,7 +131,9 @@ Phần này đọc thêm để hiểu sự kỳ quặc của JavaScript, nó đ�
 
 ## BÀI TẬP
 
-1. Không chạy đoạn code, cho biết vì sao giá trị in ra console ở từng dòng
+### Bài 1
+
+Không chạy đoạn code, cho biết vì sao giá trị in ra console ở từng dòng
 là giá trị bên cạnh (Tại sao là true? Nếu là false thì tại sao là false?)
 
 ```js
@@ -139,7 +141,9 @@ console.log(25 == "25"); // true
 console.log(25 === "25"); // false
 ```
 
-2. Đoạn code bên dưới là đoạn code gán giá trị port trong một app NodeJS sử dụng ExpressJS
+### Bài 2:
+
+Đoạn code bên dưới là đoạn code gán giá trị port trong một app NodeJS sử dụng ExpressJS
 Framework. Giá trị in ra console tương ứng sẽ là gì nếu thuộc tính `process.env.PORT` lần
 lượt có giá trị `3000` và `undefined`? Giải thích vì sao?
 
@@ -148,7 +152,9 @@ const PORT = process.env.PORT || 8080;
 console.log(PORT);
 ```
 
-3. Đoạn code bên dưới là đoạn code render component `Modal`* (không có props) trong ReactJS.
+### Bài 3:
+
+Đoạn code bên dưới là đoạn code render component `Modal`* (không có props) trong ReactJS.
 Vì sao cần dùng toán tử `&&` trong method `render` của component `App`? Sử dụng toán tử 3 ngôi
 để viết lại đoạn code này.
 

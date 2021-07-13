@@ -301,7 +301,9 @@ Ngoài các method kể trên, có một số method đơn giản hơn cần n�
 
 ## BÀI TẬP
 
-1. Sử dụng method `Array.prototype.map`, tạo một array mới `floorNums` trả về của kết quả
+### Bài 1:
+
+Sử dụng method `Array.prototype.map`, tạo một array mới `floorNums` trả về của kết quả
 làm tròn xuống đến số nguyên gần nhất (tức là 2.8 sẽ thành 2, 3.2 sẽ thành 3) từng phần tử
 trong array `nums`. Biết hàm làm tròn xuống của số x là: `Math.floor(x)`
 
@@ -324,7 +326,9 @@ Kết quả mong đợi:
 floorNumsGreaterThanThree = [5, 8, 11];
 ```
 
-2. Sử dụng method `Array.prototype.find` và `Array.prototype.findIndex`, tìm **phần tử và
+### Bài 2:
+
+Sử dụng method `Array.prototype.find` và `Array.prototype.findIndex`, tìm **phần tử và
 chỉ số phần tử đầu tiên** có thuộc tính `name` là `Jane` trong array `persons` cho bên dưới:
 
 ```js
@@ -365,7 +369,9 @@ jane = {
 index = 2;
 ```
 
-3. Sử dụng method `Array.prototype.reduce`, lọc ra những nhân vật phim theo từng phim.
+### Bài 3:
+
+Sử dụng method `Array.prototype.reduce`, lọc ra những nhân vật phim theo từng phim.
 
 Cho array nhân vật phim `characters`:
 ```js
@@ -424,7 +430,9 @@ const movies = {
 }
 ```
 
-4. Gộp 3 array `a`, `b`, `c` sau thành một array `z` sử dụng method `Array.prototype.concat`.
+### Bài 4:
+
+Gộp 3 array `a`, `b`, `c` sau thành một array `z` sử dụng method `Array.prototype.concat`.
 
 ```js
 const a = [[1, 2], 3];

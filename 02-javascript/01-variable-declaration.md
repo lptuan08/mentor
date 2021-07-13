@@ -170,7 +170,9 @@ Nghĩa là *chỉ sử dụng `let` và `const` để khai báo biến*
 
 ## BÀI TẬP
 
-1. Cho đoạn code bên dưới, giải thích tại sao lại dùng keyword `let` để khai báo biến `sum` và `i`? Và scope của từng biến trên.
+### Bài 1:
+
+Cho đoạn code bên dưới, giải thích tại sao lại dùng keyword `let` để khai báo biến `sum` và `i`? Và scope của từng biến trên.
 
 ```js
 let sum = 0;
@@ -182,7 +184,9 @@ for(let i = 0; i < 10; i++) {
 console.log(sum);
 ```
 
-2. Cho đoạn code bên dưới, giải thích tại sao lại dùng keyword `const` để khai báo biến `g`:
+### Bài 2:
+
+Cho đoạn code bên dưới, giải thích tại sao lại dùng keyword `const` để khai báo biến `g`:
 
 ```js
 const g = 9.8; // m/s^2
@@ -191,7 +195,9 @@ let m = P/g; // kg
 console.log(m);
 ```
 
-3. Chỉ rõ Scope của các biến `x`, `y` và `z`. Nếu là Function Scope chỉ rõ function nào.
+### Bài 3:
+
+Chỉ rõ Scope của các biến `x`, `y` và `z`. Nếu là Function Scope chỉ rõ function nào.
 
 ```js
 var x = 5;
@@ -207,7 +213,9 @@ function printSomething() {
 }
 ```
 
-4. Chạy đoạn code bên dưới và cho biết tại sao lại có sự khác nhau giữa 2 dòng `console.log`?
+### Bài 4:
+
+Chạy đoạn code bên dưới và cho biết tại sao lại có sự khác nhau giữa 2 dòng `console.log`?
 
 ```js
 console.log(counter);
@@ -215,7 +223,9 @@ var counter = 1;
 console.log(counter);
 ```
 
-5. Tại sao không nên dùng keyword `var` mà chỉ nên sử dụng `let` hoặc `const`? Nên dùng `const` hay `let` đối với biến `nums` là một array như đoạn code sau:
+### Bài 5:
+
+Tại sao không nên dùng keyword `var` mà chỉ nên sử dụng `let` hoặc `const`? Nên dùng `const` hay `let` đối với biến `nums` là một array như đoạn code sau:
 
 ```js
 nums = [1, 2, 3, 4];
