@@ -298,3 +298,151 @@ Ngoài các method kể trên, có một số method đơn giản hơn cần n�
 - Array.prototype.every()
 - Array.prototype.reverse() \
 ...
+
+## BÀI TẬP
+
+1. Sử dụng method `Array.prototype.map`, tạo một array mới `floorNums` trả về của kết quả
+làm tròn xuống đến số nguyên gần nhất (tức là 2.8 sẽ thành 2, 3.2 sẽ thành 3) từng phần tử
+trong array `nums`. Biết hàm làm tròn xuống của số x là: `Math.floor(x)`
+
+```js
+const nums = [0.8, 2.1, 5.3, 3.6, 8.4, 11.2];
+```
+
+Kết quả mong đợi:
+
+```js
+floorNums = [0, 2, 5, 3, 8, 11];
+```
+
+Sau khi thu được kết quả, dùng method `Array.prototype.filter` để lọc ra những phần tử
+**lớn hơn** 3 trong array kết quả.
+
+Kết quả mong đợi:
+
+```js
+floorNumsGreaterThanThree = [5, 8, 11];
+```
+
+2. Sử dụng method `Array.prototype.find` và `Array.prototype.findIndex`, tìm **phần tử và
+chỉ số phần tử đầu tiên** có thuộc tính `name` là `Jane` trong array `persons` cho bên dưới:
+
+```js
+const person = [
+    {
+        name: 'Jay',
+        age: 21
+    },
+    {
+        name: 'Bob',
+        age: 36
+    },
+    {
+        name: 'Jane',
+        age: 19
+    },
+    {
+        name: 'Josh',
+        age: 22
+    },
+    {
+        name: 'Jane',
+        age: 32
+    }
+];
+```
+
+Kết quả mong đợi:
+
+```js
+jane = {
+    name: Jane,
+    age: 19
+};
+
+// and
+
+index = 2;
+```
+
+3. Sử dụng method `Array.prototype.reduce`, lọc ra những nhân vật phim theo từng phim.
+
+Cho array nhân vật phim `characters`:
+```js
+const characters = [
+    {
+        name: 'Harry Potter',
+        age: 17,
+        movie: 'Harry Potter'
+    },
+    {
+        name: 'Bilbo Baggins',
+        age: 28,
+        movie: 'The Hobbits'
+    },
+    {
+        name: 'Hermione Granger',
+        age: 17,
+        movie: 'Harry Potter'
+    },
+    {
+        name: 'Gandalf',
+        age: 62,
+        movie: 'The Hobbits'
+    },
+];
+```
+
+Kết quả mong đợi
+
+```js
+const movies = {
+    'Harry Potter': [
+        {
+        name: 'Harry Potter',
+        age: 17,
+        movie: 'Harry Potter'
+        },
+        {
+            name: 'Hermione Granger',
+            age: 17,
+            movie: 'Harry Potter'
+        },
+    ],
+    'The Hobbits': [
+        {
+            name: 'Bilbo Baggins',
+            age: 28,
+            movie: 'The Hobbits'
+        },
+        {
+            name: 'Gandalf',
+            age: 62,
+            movie: 'The Hobbits'
+        }
+    ]
+}
+```
+
+4. Gộp 3 array `a`, `b`, `c` sau thành một array `z` sử dụng method `Array.prototype.concat`.
+
+```js
+const a = [[1, 2], 3];
+const b = [4, 5];
+const c = [[[6, 7], 8]];
+```
+
+Kết quả mong đợi:
+
+```js
+z = [[1, 2], 3, 5, 6, [[6, 7], 8]];
+```
+
+Sau đó dùng `Array.prototype.flat` để làm phẳng toàn bộ mảng (tức là không chứa
+bất kỳ mảng con - subarray nào nữa) với tên biến là `flattenZ`
+
+Kết quả mong đợi:
+
+```js
+flattenZ = [1, 2, 3, 4, 5, 6, 7, 8];
+```

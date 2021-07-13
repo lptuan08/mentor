@@ -6,6 +6,7 @@ Các mục trong phần này:
 - [3. Scope của biến](#3-scope-của-biến)
 - [4. Hoisting](#4-hoisting)
 - [5. Best practice](#5-best-practice)
+- [BÀI TẬP](#bài-tập)
 
 ## 1. Các kiểu dữ liệu trong JavaScript:
 
@@ -166,3 +167,58 @@ Từ khi có từ khoá `let` và `const`, việc khai báo biến với các t�
 dễ dàng kiểm soát scope và giá trị của biến. Thế nên, *đừng bao giờ sử dụng từ khoá `var`*.
 Nghĩa là *chỉ sử dụng `let` và `const` để khai báo biến*
 (luôn luôn sử dụng `const` và chỉ sử dụng `let` trong trường hợp cần gán lại giá trị biến).
+
+## BÀI TẬP
+
+1. Cho đoạn code bên dưới, giải thích tại sao lại dùng keyword `let` để khai báo biến `sum` và `i`? Và scope của từng biến trên.
+
+```js
+let sum = 0;
+
+for(let i = 0; i < 10; i++) {
+    sum += i;
+}
+
+console.log(sum);
+```
+
+2. Cho đoạn code bên dưới, giải thích tại sao lại dùng keyword `const` để khai báo biến `g`:
+
+```js
+const g = 9.8; // m/s^2
+let P = 980; // N
+let m = P/g; // kg
+console.log(m);
+```
+
+3. Chỉ rõ Scope của các biến `x`, `y` và `z`. Nếu là Function Scope chỉ rõ function nào.
+
+```js
+var x = 5;
+
+function printSomething() {
+    for(let i = 0; i < 10; i++) {
+        var y = 1;
+        if(y % 2 === 1) {
+            y++;
+            let z = y/2;
+        }
+    }
+}
+```
+
+4. Chạy đoạn code bên dưới và cho biết tại sao lại có sự khác nhau giữa 2 dòng `console.log`?
+
+```js
+console.log(counter);
+var counter = 1;
+console.log(counter);
+```
+
+5. Tại sao không nên dùng keyword `var` mà chỉ nên sử dụng `let` hoặc `const`? Nên dùng `const` hay `let` đối với biến `nums` là một array như đoạn code sau:
+
+```js
+nums = [1, 2, 3, 4];
+nums[0] = 0;
+nums.push(5);
+```

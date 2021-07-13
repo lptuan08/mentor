@@ -6,6 +6,7 @@ Các mục trong mục này:
 - [3. Truthy và Falsy](#3-truthy-và-falsy)
 - [4. Toán tử logic](#4-toán-tử-logic)
 - [5. Sự kỳ cục trong JavaScript](#5-sự-kỳ-cục-trong-javascript)
+- [BÀI TẬP](#bài-tập)
 
 ## 1. So sánh:
 
@@ -127,3 +128,54 @@ console.log(0/0); // NaN - Not a Number
 
 Phần này đọc thêm để hiểu sự kỳ quặc của JavaScript, nó được xem như là ngôn ngữ lập trình
 "ngu học" nhất thế giới.
+
+## BÀI TẬP
+
+1. Không chạy đoạn code, cho biết vì sao giá trị in ra console ở từng dòng
+là giá trị bên cạnh (Tại sao là true? Nếu là false thì tại sao là false?)
+
+```js
+console.log(25 == "25"); // true
+console.log(25 === "25"); // false
+```
+
+2. Đoạn code bên dưới là đoạn code gán giá trị port trong một app NodeJS sử dụng ExpressJS
+Framework. Giá trị in ra console tương ứng sẽ là gì nếu thuộc tính `process.env.PORT` lần
+lượt có giá trị `3000` và `undefined`? Giải thích vì sao?
+
+```js
+const PORT = process.env.PORT || 8080;
+console.log(PORT);
+```
+
+3. Đoạn code bên dưới là đoạn code render component `Modal`* (không có props) trong ReactJS.
+Vì sao cần dùng toán tử `&&` trong method `render` của component `App`? Sử dụng toán tử 3 ngôi
+để viết lại đoạn code này.
+
+*: Modal là một cửa sổ sẽ xuất hiện đè lên toàn bộ giao diện app, ví dụ như một Login form để người
+dùng đăng nhập vào ứng dụng
+
+```js
+class App extends React.Component {
+    constructor() {
+        this.state = {
+            imageShown: false
+        }
+    }
+
+    toggleLoginModal = () => {
+        this.setState({ imageShown: !this.state.imageShown });
+    }
+
+    render() {
+        const { imageShown } = this.state;
+
+        return (
+            <div>
+                {imageShown && <Modal />}
+                <button onClick={this.toggleLoginModal}>Login</button>
+            </div>
+        );
+    }
+}
+```
