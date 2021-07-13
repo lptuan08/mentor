@@ -4,60 +4,64 @@
 
 ### Phần 1: Git/Github và commandline interface (CLI):
 
-1.  Setup Git bằng SSH
-2. Tạo repository và push code lên git
-3. Các lệnh Git cơ bản
+- [x] 1.  Setup Git bằng SSH
+- [x] 2. Tạo repository và push code lên git
+- [x] 3. Các lệnh Git cơ bản
 
 ### Phần 2: JavaScript
 
-1. Nhắc lại về JavaScript cơ bản
-2. Một số cú pháp của JavaScript ES6 (destructuring, rest parameter, arrow function ...)
-3. Asynchronous JavaScript với Callback, Promise và Async/Await
+- [ ] 1. Kiểu dữ liệu, Biến và khai báo biến
+- [ ] 2. Một số toán tử thường dùng
+- [ ] 3. Một số cú pháp của JavaScript ES6
+- [ ] 4. Array
+- [ ] 5. Object
+- [ ] 6. Prototype, Class & `this` keyword
+- [ ] 7. Asynchronous JavaScript với Callback, Promise và Async/Await
 
 ### Phần 3: Back-end NodeJS cơ bản
 
-1. Cài đặt NVM, MongoDB, Postman, MongoDB Compass các kiểu
-1. Khởi tạo một project NodeJS
-2. Setup Babel để sử dụng ES6 Syntax (có thể bỏ qua nếu sử dụng CommonJS Modules 😀)
-3. Cấu trúc thư mục một dự án NodeJS - ExpressJS nhỏ
-4. Viết một số API đơn giản
-5. Kết nối MongoDB với mongoose
-6. Gửi mail với nodemailer
-7. Upload file với Multer và Cloudinary
-8. Viết các API xác thực người dùng (đăng ký, đăng nhập, ...) và JsonWebToken
-9. API Testing với Postman
+- [ ] 1. Cài đặt NVM, MongoDB, Postman, MongoDB Compass các kiểu
+- [ ] 2. Khởi tạo một project NodeJS
+- [ ] 3. Setup Babel để sử dụng ES6 Syntax (có thể bỏ qua nếu sử dụng CommonJS Modules 😀)
+- [ ] 4. Cấu trúc thư mục một dự án NodeJS - ExpressJS nhỏ
+- [ ] 5. Viết một số API đơn giản
+- [ ] 6. Kết nối MongoDB với mongoose
+- [ ] 7. Gửi mail với nodemailer
+- [ ] 8. Upload file với Multer và Cloudinary
+- [ ] 9. Viết các API xác thực người dùng (đăng ký, đăng nhập, ...) và JsonWebToken
+- [ ] 10. API Testing với Postman
 
 ### Phần 4: Todo App - NodeJS API
 
-1. Phân tích Database và tạo các Model schema
-2. Viết các Controller
-3. API Testing với Postman
+- [ ] 1. Phân tích Database và tạo các Model schema
+- [ ] 2. Viết các Controller
+- [ ] 3. API Testing với Postman
 
 ### Phần 5: Todo App - ReactJS
 
-1. Khởi tạo một dự án ReactJS với create-react-app và SACC/SCSS
-2. React Hooks - Một số hooks cơ bản (useState, useEffect, useRef, useContext)
-3. Viết giao diện từ file thiết kế và SASS cơ bản
-4. Todo App với React Context API
-5. Tương tác với NodeJS API
-6. Responsive Web Design cơ bản với Todo App
-7. Deploy toàn bộ ứng dụng lên Free Hosting (Heroku, Firebase, ...)
+- [ ] 1. Khởi tạo một dự án ReactJS với create-react-app và SACC/SCSS
+- [ ] 2. React Hooks - Một số hooks cơ bản (useState, useEffect, useRef, useContext)
+- [ ] 3. Viết giao diện từ file thiết kế và SASS cơ bản
+- [ ] 4. Todo App với React Context API
+- [ ] 5. Tương tác với NodeJS API
+- [ ] 6. Responsive Web Design cơ bản với Todo App
+- [ ] 7. Deploy toàn bộ ứng dụng lên Free Hosting (Heroku, Firebase, ...)
 
 ### Phần 6: Ứng dụng DevNotes với NodeJS API (tương tự Google Keep nhưng sử dụng Markdown để viết note)
 
-1. Phân tích Database và tạo các Model schema (sử dụng lại template dự án trước đó)
-2. MongoDB/Mongoose aggregation
-3. Các API Controller cho ứng dụng DevNotes (phần này khá dài)
-4. API Testing với Postman
+- [ ] 1. Phân tích Database và tạo các Model schema (sử dụng lại template dự án trước đó)
+- [ ] 2. MongoDB/Mongoose aggregation
+- [ ] 3. Các API Controller cho ứng dụng DevNotes (phần này khá dài)
+- [ ] 4. API Testing với Postman
 
 ### Phần 7: DevNotes Web Client với ReactJS
 
-1. Khởi tạo cấu trúc project ReactJS
-2. Viết giao diện từ file thiết kế
-3. State management với Redux Tool Kit (hoặc React Context API)
-4. Tương tác với Back-end API
-5. Responsive Web Design
-6. Deploy toàn bộ ứng dụng DevNotes
+- [ ] 1. Khởi tạo cấu trúc project ReactJS
+- [ ] 2. Viết giao diện từ file thiết kế
+- [ ] 3. State management với Redux Tool Kit (hoặc React Context API)
+- [ ] 4. Tương tác với Back-end API
+- [ ] 5. Responsive Web Design
+- [ ] 6. Deploy toàn bộ ứng dụng DevNotes
 
 ## Tóm tắt
 
