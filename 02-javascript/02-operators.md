@@ -48,6 +48,9 @@ console.log(typeof true); // boolean
 console.log(typeof function() {}); // function
 console.log(typeof { a: 1, b:2 }); // object
 
+// typeof của một array trong JS là object
+console.log(typeof [1, 2, 3]); // object
+
 console.log(typeof undefined); // undefined
 console.log(typeof null); // object
 
