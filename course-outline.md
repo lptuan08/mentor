@@ -13,11 +13,12 @@
 - [x] 1. Kiểu dữ liệu, Biến và khai báo biến
 - [x] 2. Một số toán tử thường dùng
 - [x] 3. Một số cú pháp của JavaScript ES6
-- [x] 4. Array
-- [ ] 5. Object, Prototype
-- [ ] 6. Class & `this` keyword
-- [ ] 7. Function
-- [ ] 8. Asynchronous JavaScript với Callback, Promise và Async/Await
+- [x] 4. Arrays
+- [ ] 5. Maps & Sets
+- [ ] 6. Functions
+- [ ] 7. Object, Prototype, Class & `this` keyword
+- [ ] 8. Asynchronous JavaScript
+- [ ] 9. Callback, Promise, Async/Await
 
 ### Phần 3: Back-end NodeJS cơ bản
 
